@@ -25,6 +25,7 @@ fn main() {
         "create" => one_brc::create_file::run(num, &file_path),
         "impl" => match num {
             1 => one_brc::impl_1::run(&file_path),
+            2 => one_brc::impl_2::run(&file_path),
             _ => println!("'impl {num}' not available"),
         },
         _ => (),

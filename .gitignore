@@ -1,0 +1,9 @@
+# Generated files
+target/
+
+# Cargo.lock
+**/Cargo.lock
+
+# .vscode
+.vscode/
+

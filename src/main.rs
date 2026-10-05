@@ -28,6 +28,7 @@ fn main() {
             2 => one_brc::impl_2::run(&file_path),
             3 => one_brc::impl_3::run(&file_path),
             4 => one_brc::impl_4::run(&file_path),
+            5 => one_brc::impl_5::run(&file_path),
             _ => println!("'impl {num}' not available"),
         },
         _ => (),
